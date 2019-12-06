@@ -1,3 +1,5 @@
+# This is a work in progress, Licensing and other information will be updated in due course.
+
 # reagent-replenishment
 
 This project is done in two phases:
