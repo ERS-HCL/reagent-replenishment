@@ -4,17 +4,17 @@ Reagents are an integral part in medicine and healthcare. The use of reagents fo
 
 This project is done in two phases:
 
-1. Generation of Reagent Consumption Data
-2. Building a model for forecasting the reagent usage.
+- Generation of Reagent Consumption Data
+- Building a model for forecasting the reagent usage.
 
 For above, two notebooks are created:
 
-reagent_datagen_extended.ipynb
+* reagent_datagen_extended.ipynb
 The generation of data is done by the following code.
 df_reagent_X = get_data(number_of_obs = 3000, reagent_name = CONST_REAGENT_AFP_NAME); df_reagent_X
 After that various reagent data can be combined (appended).
 
-reagent_forecasting_model_nn.ipynb
+* reagent_forecasting_model_nn.ipynb
 Model Building for reagent forecasting is done in this file.
 
 
